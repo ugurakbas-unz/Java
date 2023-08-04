@@ -23,8 +23,10 @@ public class Question1 {
                 "\ngirilen karakter: "+karakter);
 
     }
-            // git config --global user.mail ugurakbas.unz@gmail.com
-            // git push -u origin master
-            // git push -u origin master
-
+            // git init
+            // git add .
+            // git commit -m ""
+            // git branch -M main
+            // git remote add origin https://github.com/ugurakbas-unz/Java-Begining.git
+            // git push -u origin main
 }
