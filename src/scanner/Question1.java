@@ -23,6 +23,8 @@ public class Question1 {
                 "\ngirilen karakter: "+karakter);
 
     }
-
+            // git config --global user.mail ugurakbas.unz@gmail.com
+            // git push -u origin master
+            // git push -u origin master
 
 }
