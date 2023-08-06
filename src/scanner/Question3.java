@@ -2,7 +2,7 @@ package scanner;
 
 import java.util.Scanner;
 
-public class Qustion3 {
+public class Question3 {
     public static void main(String[] args) {
 
     //Soru 3-Kullanicidan ismini, soyismini ve yasini alip, asagidaki formmatta yazdirin.
