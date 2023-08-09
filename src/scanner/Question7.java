@@ -6,7 +6,8 @@ public class Question7 {
 
     public static void main(String[] args) {
 
-        // Soru 7 (Interview)-Kullanicidan iki sayi alip ikisinin degerlerini degistirin(swap).
+        // Soru 7 (Interview)
+        //      -Kullanicidan iki sayi alip ikisinin degerlerini degistirin(swap).
 
         Scanner scanner = new Scanner(System.in);
 
