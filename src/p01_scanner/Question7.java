@@ -1,14 +1,13 @@
-package scannerMetodOlustur;
+package p01_scanner;
 
 import java.util.Scanner;
 
-public class Method8 {
+public class Question7 {
 
     public static void main(String[] args) {
 
-        //Soru 8 (Interview)-Kullanicidan iki sayi alip,
-        // ucuncu bir degisken kullanmadan ikisinin
-        //degerlerini degistirin(swap).
+        // Soru 7 (Interview)
+        //      -Kullanicidan iki sayi alip ikisinin degerlerini degistirin(swap).
 
         Scanner scanner = new Scanner(System.in);
 
@@ -18,15 +17,22 @@ public class Method8 {
         System.out.println("bir tamsayı daha giriniz");
         int tamsayi2 = scanner.nextInt();
 
-        tamsayi2=tamsayi1+tamsayi2;
-        tamsayi1=tamsayi2-tamsayi1;
-        tamsayi2=tamsayi2-tamsayi1;
+        int temp=tamsayi1;
+
+        tamsayi1=tamsayi2;
+
+        tamsayi2=temp;
 
 
-        System.out.println("girilen sayıların yerleri degiştirildi; son durumda : " +
+        System.out.println("girilen sayılar degiştirildi : " +
                 "\nilk sayi: " + tamsayi1 +
                 "\nikinci sayi: " +tamsayi2);
 
 
+
+
+
+
     }
 }
+

@@ -1,4 +1,4 @@
-package scannerMetodOlustur;
+package p01_sMethod;
 
 import java.util.Scanner;
 

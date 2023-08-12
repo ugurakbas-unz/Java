@@ -1,13 +1,14 @@
-package scanner;
+package p01_sMethod;
 
 import java.util.Scanner;
 
-public class Question7 {
+public class Method8 {
 
     public static void main(String[] args) {
 
-        // Soru 7 (Interview)
-        //      -Kullanicidan iki sayi alip ikisinin degerlerini degistirin(swap).
+        //Soru 8 (Interview)-Kullanicidan iki sayi alip,
+        // ucuncu bir degisken kullanmadan ikisinin
+        //degerlerini degistirin(swap).
 
         Scanner scanner = new Scanner(System.in);
 
@@ -17,22 +18,15 @@ public class Question7 {
         System.out.println("bir tamsayı daha giriniz");
         int tamsayi2 = scanner.nextInt();
 
-        int temp=tamsayi1;
-
-        tamsayi1=tamsayi2;
-
-        tamsayi2=temp;
+        tamsayi2=tamsayi1+tamsayi2;
+        tamsayi1=tamsayi2-tamsayi1;
+        tamsayi2=tamsayi2-tamsayi1;
 
 
-        System.out.println("girilen sayılar degiştirildi : " +
+        System.out.println("girilen sayıların yerleri degiştirildi; son durumda : " +
                 "\nilk sayi: " + tamsayi1 +
                 "\nikinci sayi: " +tamsayi2);
 
 
-
-
-
-
     }
 }
-
