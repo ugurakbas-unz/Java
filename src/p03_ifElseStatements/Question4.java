@@ -2,7 +2,7 @@ package p03_ifElseStatements;
 
 import java.util.Scanner;
 
-public class Questions4 {
+public class Question4 {
 
     public static void main(String[] args) {
 

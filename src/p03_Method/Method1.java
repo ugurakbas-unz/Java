@@ -2,7 +2,7 @@ package p03_Method;
 
 import java.util.Scanner;
 
-public class Method {
+public class Method1 {
 
     public static void main(String[] args) {
 
