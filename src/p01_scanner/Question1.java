@@ -25,7 +25,6 @@ public class Question1 {
     }
             // git init
             // git add .
-            // git commit -m "version-1"
             // git branch -M main
             // git remote add origin https://github.com/ugurakbas-unz/Java-Begining.git
             // git push -u origin main
